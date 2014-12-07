@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>무제 문서</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+   <link href="http://jquerymobile.com/demos/1.0a4.1/experiments/ui-datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet" type="text/css"/>
+  <script src="http://jquerymobile.com/demos/1.0a4.1/experiments/ui-datepicker/jQuery.ui.datepicker.js"></script>
+  <script src="http://jquerymobile.com/demos/1.0a4.1/experiments/ui-datepicker/jquery.ui.datepicker.mobile.js"></script>
+ 
+  <link rel="stylesheet" href="themes/my-theme.min.css" />
+<style type="text/css">
+.pic{
+	float:left;
+	width:30%;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.pic:hover{
+	width:100%;
+}
+@font-face{
+	font-family:SeoulNamsanFont;
+	src:url('SeoulNamsanL.ttf');
+}
+@font-face{
+	font-family:SeoulNamsanFont;
+	src:url('SeoulNamsanEB.ttf');
+	font-weight:bold;
+}
+*{
+	font-family:SeoulNamsanFont;
+}
+</style>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  </script>
+</head>
+
+
+<body>
+<div data-role="page">
+    <div data-role="content" align="center">
+        <div style="font-size:100%;" id="datepicker">
+        </div>
+    </div>
+</div>
+</body>
+</html>
